@@ -34,7 +34,6 @@ export function History() {
                     })}
                   </td>
                   <td>
-                    <span>{cycle.finishedDate?.toDateString()}</span>
                     {cycle.finishedDate && (
                       <Status statusColor="green">Concluído</Status>
                     )}
